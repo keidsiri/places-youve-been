@@ -31,7 +31,6 @@ $(document).ready(function() {
   });
   $("#place3").click(function() {
     $("#id3").empty();
-    $("#id3").toggle();
     $("#id3").append("<li>" + banff.location + "</li>");
     $("#id3").append("<li>" + banff.landmark + "</li>");
     $("#id3").append("<li>" + banff.time + "</li>");
@@ -39,7 +38,6 @@ $(document).ready(function() {
   });
   $("#place4").click(function() {
     $("#id4").empty();
-    $("#id4").toggle();
     $("#id4").append("<li>" + cancun.location + "</li>");
     $("#id4").append("<li>" + cancun.landmark + "</li>");
     $("#id4").append("<li>" + cancun.time + "</li>");
